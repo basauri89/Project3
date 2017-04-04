@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">General Knowledge Quiz</string>
+    <string name="header">Question:</string>
+    <string name="question1">Where did Napoleon died?</string>
+    <string name="radio11">In his last battle in France</string>
+    <string name="radio12">In Switzerland</string>
+    <string name="radio13">In an island in France called Elba</string>
+    <string name="question2">Where did Einstein work before his great discovery?</string>
+    <string name="radio21">At a Starbucks Coffee</string>
+    <string name="radio22">At a patent office</string>
+    <string name="radio23">At a Supermarket</string>
+    <string name="question3">Which country has won the most Football word cups?</string>
+    <string name="radio31">Spain</string>
+    <string name="radio32">Germany</string>
+    <string name="radio33">Brazil</string>
+    <string name="submitButton">Submit Answers</string>
+    <string name="question4">Which year was the America found?</string>
+    <string name="radio41">1492</string>
+    <string name="radio42">1676</string>
+    <string name="radio43">1434</string>
+    <string name="question5">When did the roman empire fall down?</string>
+    <string name="radio51">278</string>
+    <string name="radio52">476</string>
+    <string name="radio53">388</string>
+
+</resources>
+

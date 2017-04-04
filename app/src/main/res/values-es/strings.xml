@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Quizz de conocimiento general</string>
+    <string name="header">Pregunta</string>
+    <string name="question1">Donde murió Napoleon?</string>
+    <string name="question2">Donde trabajo Einstein antes de sus descubrimientos?</string>
+    <string name="question3">Que país ha ganado mas copas del mundo</string>
+    <string name="question4">En que año se descubrio América?</string>
+    <string name="question5">Cuando cayo el imperio Romano?</string>
+    <string name="radio11">En su ultima batalla</string>
+    <string name="radio12">En Suiza</string>
+    <string name="radio13">En la Isla de Elba</string>
+    <string name="radio21">En un Starbucks</string>
+    <string name="radio22">En una oficina de patentes</string>
+    <string name="radio23">En un Supermercado</string>
+    <string name="radio31">España</string>
+    <string name="radio32">Alemania</string>
+    <string name="radio33">Brasil</string>
+    <string name="radio41">1492</string>
+    <string name="radio42">1676</string>
+    <string name="radio43">1434</string>
+    <string name="radio51">278</string>
+    <string name="radio52">476</string>
+    <string name="radio53">388</string>
+    <string name="submitButton">Checkear respuestas</string>
+</resources>
