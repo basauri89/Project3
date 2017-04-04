@@ -10,4 +10,6 @@ need to develop the following: </p>
 </ul>
 
 <p>I have decided to create a general knowledge questionnaire for this project.
-First of all the code will show a screen with all the questions listed</p>
+First of all the code will show a screen with all the questions listed <br>
+I will improve the code by adding different screens and a next and previous button in order
+to browse the quizz app.</p>
