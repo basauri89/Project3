@@ -12,4 +12,6 @@ need to develop the following: </p>
 <p>I have decided to create a general knowledge questionnaire for this project.
 First of all the code will show a screen with all the questions listed <br>
 I will improve the code by adding different screens and a next and previous button in order
-to browse the quizz app.</p>
+to browse the quizz app.
+<h2>Multiple Screen Branch:</h2>
+<p>In this branch we will develop the multipple screen functionallity</p></p>
