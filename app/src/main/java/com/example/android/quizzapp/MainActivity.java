@@ -1,6 +1,7 @@
 package com.example.android.quizzapp;
 
 import android.content.Context;
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -81,6 +82,8 @@ public class MainActivity extends AppCompatActivity {
 
         createToast("Please answer every question before submitting");
 
+        //Jump to final activity:
+        startActivity();
 
     }
 
@@ -144,6 +147,11 @@ public class MainActivity extends AppCompatActivity {
         }
 
         return score;
+    }
+
+    public void startActivity() {
+        Intent resultScreen = new Intent(MainActivity.this, ResultActivity.class);
+        startActivity(resultScreen);
     }
 }
 
