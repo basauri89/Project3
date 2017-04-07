@@ -22,6 +22,12 @@ public class ResultActivity extends AppCompatActivity{
         //Get the rating bar:
         resultBar = (RatingBar) findViewById(R.id.ratingBar);
 
+        //get the score from the intent:
+        score = getIntent().getExtras().getInt("score");
+
+        //Fulfill the rating bar:
+        resultBar.setNumStars(score);
+
     }
 
 

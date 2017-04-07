@@ -23,6 +23,9 @@ public class MainActivity extends AppCompatActivity {
     private int[] answers = null;
     public int[] userAnswers = null;
 
+    //score
+    public int totScore = 0;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -61,15 +64,15 @@ public class MainActivity extends AppCompatActivity {
         if (checkForm()){
 
             //calculate the score:
-            int score = calculateScore();
+            totScore = calculateScore();
 
 
             //create the toast message with the score:
 
-            String msg = "Congratulations! your score is "+score+"/5";
+            String msg = "Congratulations! your score is "+totScore+"/5";
 
             //if not 5 out of 5:
-            if (score < 5){
+            if (totScore < 5){
                 msg += "\n Keep trying until you make it perfect ;)";
             }
             createToast(msg);
@@ -77,6 +80,7 @@ public class MainActivity extends AppCompatActivity {
             return;
 
         }
+
 
         //Show a toast message whe not all questions have been answered.
 
@@ -151,6 +155,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void startActivity() {
         Intent resultScreen = new Intent(MainActivity.this, ResultActivity.class);
+        resultScreen.putExtra("score",totScore);
         startActivity(resultScreen);
     }
 }
