@@ -26,7 +26,9 @@ public class ResultActivity extends AppCompatActivity{
         score = getIntent().getExtras().getInt("score");
 
         //Fulfill the rating bar:
-        resultBar.setNumStars(score);
+        resultBar.setRating(score);
+        
+
 
     }
 

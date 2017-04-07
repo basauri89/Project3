@@ -77,6 +77,9 @@ public class MainActivity extends AppCompatActivity {
             }
             createToast(msg);
 
+            //Jump to final activity:
+            startActivity();
+
             return;
 
         }
@@ -86,8 +89,7 @@ public class MainActivity extends AppCompatActivity {
 
         createToast("Please answer every question before submitting");
 
-        //Jump to final activity:
-        startActivity();
+
 
     }
 
