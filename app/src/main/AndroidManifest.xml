@@ -17,6 +17,10 @@
         </activity>
 
         <activity
+            android:name=".QuestionnaireActivity"
+            android:label="questionnaire" />
+
+        <activity
             android:name=".ResultActivity"
             android:label="resultPage" />
     </application>

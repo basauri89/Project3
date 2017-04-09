@@ -27,7 +27,7 @@ public class ResultActivity extends AppCompatActivity{
 
         //Fulfill the rating bar:
         resultBar.setRating(score);
-        
+
 
 
     }
